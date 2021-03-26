@@ -16,5 +16,5 @@ Selecting 2 rooms at random; swap the first 2 students in one room with the last
 _Output_: Produces a text file as output, reporting the best, worst, and average room compatibility score of your match, along with the parameters of the search (cooling schedule, initial value for T), followed by the room assignments.
 
 # Wiki Link
-To see program useage and screenshots, pelase check out the [wiki page!](https://github.com/n-edmond/Simulated_Annealing/wiki)
+To see program useage, screenshots, and references used, please check out the [wiki page!](https://github.com/n-edmond/Simulated_Annealing/wiki)
 
