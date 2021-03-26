@@ -269,7 +269,7 @@ void SimAnnealing::createOutputFile(){
   << "\nStarting temperature:            \t"<< start_temp
   << "\nProportional Reduction:          \t"<< reduction
   <<"\n-------------------------------------------------------------\n"
-  <<"PROGRAM INFORMATION:"
+  <<"PROGRAM INFORMATION:\n"
   << "\nTotal swaps attempted:           \t" <<total_attempts
   << "\nTotal swaps completed:           \t" <<total_changes
   <<"\n-------------------------------------------------------------\n"

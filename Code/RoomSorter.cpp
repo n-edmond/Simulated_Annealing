@@ -9,6 +9,7 @@ using namespace std;
 **/
 void RoomSorter::calcFitness(int roommate_compat[4]){
   fit_val = 0;//intilizing the fitess score
+  //Trying to comapre roommate at index0 to roommate at index1, and so on
   for(int rm_1 = 0; rm_1 <3;  rm_1++) {
     for(int rm_2= rm_1 + 1; rm_2 < 4; rm_2++) {
       //calculating fitness value here
