@@ -262,6 +262,7 @@ void SimAnnealing::createOutputFile(){
   <<best_room_num
   << "\nWorst fitness value of: \t" <<worst<< "\t in room number \t"
   <<worst_room_num
+  << "\nAverage fitness value:  \t" <<(avg / 50)
   //display search parameters
   <<"\n-------------------------------------------------------------\n"
   <<"SEARCH PARAMETERS:\n"
@@ -271,7 +272,6 @@ void SimAnnealing::createOutputFile(){
   <<"PROGRAM INFORMATION:"
   << "\nTotal swaps attempted:           \t" <<total_attempts
   << "\nTotal swaps completed:           \t" <<total_changes
-  << "\nAverage fitness value:           \t" <<(avg / 50)
   <<"\n-------------------------------------------------------------\n"
   //display room assignments 
   <<"ROOM ASSIGNMENTS:\n"<<endl;
