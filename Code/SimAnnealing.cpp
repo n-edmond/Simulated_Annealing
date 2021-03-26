@@ -6,15 +6,12 @@ using namespace std;
 *parameterized constructor
 params file is the name of the input file, temp is the starting temperature, reduc is the proportional reduction value
 **/
-SimAnnealing::SimAnnealing(string file, int temp, float reduc){
+SimAnnealing::SimAnnealing(int temp, float reduc){
     srand(time(0));//for the random functions used later in prog
     //retrieving parameter info
     this->start_temp = temp;
     this->curr_temp= static_cast<float>(temp);
     this->reduction = reduc;
-
-    loadInputFile(file);//load info in file 
-    popRooms();//populate the rooms with info from out saved array
 }
 
 /** 

@@ -15,9 +15,11 @@ int main() {
  cout << "Program running....."<<endl;
 
   //creating objects here
-  SimAnnealing a(input_text, temperature, reduction);
+  SimAnnealing a(temperature, reduction);
   bool solve_check = false;
   a.setSolveCheck(solve_check);
+  a.loadInputFile(input_text);
+  a.popRooms();
 
   //Run the program
   while(!solve_check) {

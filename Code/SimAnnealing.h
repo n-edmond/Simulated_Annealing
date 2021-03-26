@@ -17,7 +17,7 @@ using namespace std;
 class SimAnnealing {
     public: 
     //CONSTRUCTOR
-    SimAnnealing(string file, int temp, float reduc);
+    SimAnnealing(int temp, float reduc);
     //SETTERS
     bool getSolveCheck();//DONE getter
     void setSolveCheck(bool check);//DONE setter
