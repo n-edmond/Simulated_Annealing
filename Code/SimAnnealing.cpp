@@ -258,9 +258,9 @@ void SimAnnealing::createOutputFile(){
   //display the best, worst, and average room compatibility score along with the parameters of your search
   output_file
   <<"SCORES:\n"
-  << "\nBest fitness value of:  \t" <<best << "\t in room number \t"
+  << "\nBest fitness value of:  \t" <<best << "\t first found in room number \t"
   <<best_room_num
-  << "\nWorst fitness value of: \t" <<worst<< "\t in room number \t"
+  << "\nWorst fitness value of: \t" <<worst<< "\t first found in room number \t"
   <<worst_room_num
   << "\nAverage fitness value:  \t" <<(avg / 50)
   //display search parameters

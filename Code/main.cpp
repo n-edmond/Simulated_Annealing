@@ -8,7 +8,7 @@ int main() {
 //PLEASE NOTE THAT THE PROGRAM MAY TAKE UP TO 20 SECONDS TO RUN. 
 
  //declaring initial temp, reduction values, and the name of the input file.
- int temperature = 1000;
+ int temperature = 2000;
  float reduction = 0.95;
  string input_text = "roommates.txt";
  

@@ -2,6 +2,7 @@
 #include <iostream>
 
 using namespace std;
+//NOTE: Originally I was going to include a function to sort the roommates (hence the class name) for making it easier to compare results. After finishing the program I opted to remove it since I did not really see a noticable difference between sorting it and not having it sorted. 
 
 class RoomSorter{
   public:
